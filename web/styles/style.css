@@ -1,0 +1,23 @@
+html {
+    font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: 'Gugi', cursive;
+    background-color: #ffffff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3a8da7;
+}
+
+form{
+    position: absolute;
+    width: 30%;
+    min-width: 290px;
+    margin-top: 12%;
+    margin-left: 33%;
+}
+input{
+    padding: 5px; margin: 0;
+    margin: 1px 0px;
+}
