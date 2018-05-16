@@ -5,19 +5,36 @@ html {
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    background-color: #3a8da7;
-}
-
-form{
-    position: absolute;
-    width: 30%;
-    min-width: 290px;
-    margin-top: 12%;
-    margin-left: 33%;
+    margin: 0; padding: 0;
 }
 input{
+    width: 170px;
     padding: 5px; margin: 0;
     margin: 1px 0px;
+}
+#register{
+    float: left;
+    width: 45%;
+}
+
+#d1{
+    padding: 0; margin: 0;
+    position: absolute;
+    margin: 10% 37%;
+    width: 370px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    border: solid black 1px;
+}
+#login_submit,#register_submit{
+    width: 100px;
+}
+#d_login{
+    padding: 0; margin: 0;
+    float: left;
+}
+#d_register{
+    transform: translateX(5px);
+    float: left;
 }

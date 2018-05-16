@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="public/styles/style.css" rel="stylesheet" type="text/css">
+    
+    <title>Web Folder</title>
+</head>
+<body>
+    <div id="d1">
+        <div id=d_login>
+            <form action="/" method="POST" id="login">
+                <div><input type="email" name="logemail" placeholder="Email" required=""></div>
+                <div><input type="password" name="logpassword" placeholder="password" required=""></div>
+                <div><input type="submit" value="Login" id="login_submit"></div>
+            </form>
+        </div>
+        <div id="d_register">
+            <form action="/" method="POST" id="regForm">
+                <div><input type="email" name="email" placeholder="Email" required=""></div>
+                <div><input type="password" name="password" placeholder="password" required=""></div>
+                <div><input type="password" name="passwordConf" placeholder="Confirm password" required=""></div>
+                <div><input type="submit" value="Register" id="register_submit"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="public/scripts/index.js"></script>
+</body>
+</html>

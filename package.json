@@ -1,11 +1,31 @@
 {
-  "name": "authmean",
+  "name": "project",
   "version": "0.0.1",
-  "description": "test lesson to authorize people",
+  "description": "project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon test.js",
+    "start": "nodemon app.js"
   },
   "author": "xramb",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xramb/project.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "bugs": {
+    "url": "https://github.com/xramb/project/issues"
+  },
+  "homepage": "https://github.com/xramb/project#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.17"
+  }
 }
